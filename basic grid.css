@@ -1,0 +1,14 @@
+.basic-grid {
+    display:gird ;
+    gap: 1rem;
+
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-columns: repeat(12,1fr);
+
+    grid-template-columns: repeat(12,minmax(240px,1fr));
+
+    grid-template-columns: repeat(autofit,minmax(240px,1fr));
+
+
+}
