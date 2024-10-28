@@ -1,36 +1,29 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width device = device-width", initial
-        <title> Basic Grid</title>
-            <style>
-              @import url ('./base.css');
-              @import url ('./basic-grid.css');  
-            </style>
-    </head>
-    <body>
-        <h1>basic-grid</h1>
-    </body>
-</html>
-
-<section class = "animated-grid">
-  <div class = "card">a</div>
-  <div class = "card">b</div>
-  <div class = "card">c</div>
-  <div class = "card">d</div>
-  <div class = "card">e</div>
-  <div class = "card">f</div>
-  <div class = "card">g</div>
-  <div class = "card">h</div>
-  <div class = "card">i</div>
-  <div class = "card">j</div>
-  <div class = "card">k</div>
-  <div class = "card">l</div>
-  <div class = "card">main</div>
- 
-</section>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Grid</title>
+    <link rel="stylesheet" href="basic grid.css">
+    <link rel="stylesheet" href="animated-grid.css">
+</head>
+<body>
+    <h1>animatedgrid</h1>
+    <section class="animated-grid">
+        <div class="card">a</div>
+        <div class="card">b</div>
+        <div class="card">c</div>
+        <div class="card">d</div>
+        <div class="card">e</div>
+        <div class="card">f</div>
+        <div class="card">g</div>
+        <div class="card">h</div>
+        <div class="card">i</div>
+        <div class="card">j</div>
+        <div class="card">k</div>
+        <div class="card">l</div>
+        <div class="card main">main</div>
+    </section>
 </body>
 </html>
 
